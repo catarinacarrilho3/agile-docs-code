@@ -12,7 +12,6 @@ Este repositório reúne tudo que foi produzido na atividade **Agile Docs & Code
 ├── README.md
 ├── .gitignore
 ├── REVISAO.md                          # minha revisão de código e documentação
-├── documentacao_tecnica_login.docx     # documentação técnica (Word)
 ├── documentacao_tecnica_login.pdf      # mesma documentação em PDF
 └── conversor/
     ├── conversor_moedas.py             # o conversor
