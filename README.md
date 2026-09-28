@@ -48,12 +48,13 @@ Só precisa do Python 3, sem instalar nada extra.
 cd conversor
 
 # usar o conversor pelo terminal
-python3 conversor_moedas.py
+python conversor_moedas.py
 
 # rodar os testes
-python3 -m unittest test_conversor_moedas -v
+python -m unittest test_conversor_moedas.py -v
 ```
 
+No Linux ou macOS, use `python3` no lugar de `python`.
   Foram criados 19 testes, sendo 10 de cenários que devem funcionar, 7 de erros esperados (moeda inválida, valor negativo, valor não numérico, nan, inf, valor gigante) e 2 da interface de terminal. Todos passam.
 
 ## Sobre a documentação técnica
