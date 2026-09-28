@@ -12,10 +12,10 @@ Este repositório reúne tudo que foi produzido na atividade **Agile Docs & Code
 ├── README.md
 ├── .gitignore
 ├── REVISAO.md                          # minha revisão de código e documentação
-├── documentacao_tecnica_login.pdf      # documentação técnica 
+├── documentacao_tecnica_conversor_de_moedas.pdf    # documentação técnica 
 └── conversor/
     ├── conversor_moedas.py             # o conversor
-    └── test_conversor_moedas.py        # testes unitários (unittest)
+    └── test_conversor_moedas.py        # testes unitários 
 ```
 
 ## Como organizei a sprint
@@ -57,8 +57,7 @@ python3 -m unittest test_conversor_moedas -v
   Foram criados 19 testes, sendo 10 de cenários que devem funcionar, 7 de erros esperados (moeda inválida, valor negativo, valor não numérico, nan, inf, valor gigante) e 2 da interface de terminal. Todos passam.
 
 ## Sobre a documentação técnica
-
-O enunciado pede a documentação da funcionalidade de **login**, então foi ela que documentei, com descrição, diagrama de fluxo, interfaces, armazenamento e serviços externos. No fim, deixei uma observação explicando como o login se conecta ao conversor de moedas, que é o foco da sprint.
+O enunciado tem uma certa inconsistência entre as etapas: na etapa de "praticar" pede a documentação da funcionalidade de login, e na etapa de "entregar" pede a documentação do conversor de moedas. Escolhi documentar o conversor, porque é mais consistente com o restante do trabalho, já que ele é o foco da sprint e é a mesma funcionalidade que aparece no código e nos testes.
 
 ## Revisão
 
