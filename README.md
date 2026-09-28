@@ -12,7 +12,7 @@ Este repositório reúne tudo que foi produzido na atividade **Agile Docs & Code
 ├── README.md
 ├── .gitignore
 ├── REVISAO.md                          # minha revisão de código e documentação
-├── documentacao_tecnica_login.pdf      # mesma documentação em PDF
+├── documentacao_tecnica_login.pdf      # documentação técnica 
 └── conversor/
     ├── conversor_moedas.py             # o conversor
     └── test_conversor_moedas.py        # testes unitários (unittest)
