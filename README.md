@@ -54,7 +54,7 @@ python3 conversor_moedas.py
 python3 -m unittest test_conversor_moedas -v
 ```
 
-Foram criados 12 testes, sendo 8 de cenários que devem funcionar e 4 de erros esperados (moeda inválida, valor negativo, valor não numérico). Todos passam.
+  Foram criados 19 testes, sendo 10 de cenários que devem funcionar, 7 de erros esperados (moeda inválida, valor negativo, valor não numérico, nan, inf, valor gigante) e 2 da interface de terminal. Todos passam.
 
 ## Sobre a documentação técnica
 
