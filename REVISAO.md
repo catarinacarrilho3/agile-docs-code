@@ -1,6 +1,5 @@
 # Revisão de código e documentação
-
-Revisei o que produzi na sprint depois de terminar tudo. Aqui está o que achei.
+Revisei o que produzi na sprint depois de terminar tudo, com isso foi possível observar o que ficou bom e alguns problemas encontrados pelo caminho
 
 ## O que ficou bom
 
