@@ -10,8 +10,10 @@ Este repositório reúne tudo que foi produzido na atividade **Agile Docs & Code
 ```
 .
 ├── README.md
+├── .gitignore
 ├── REVISAO.md                          # minha revisão de código e documentação
-├── documentacao_tecnica_login.pdf      # documentação em PDF
+├── documentacao_tecnica_login.docx     # documentação técnica (Word)
+├── documentacao_tecnica_login.pdf      # mesma documentação em PDF
 └── conversor/
     ├── conversor_moedas.py             # o conversor
     └── test_conversor_moedas.py        # testes unitários (unittest)
@@ -19,7 +21,7 @@ Este repositório reúne tudo que foi produzido na atividade **Agile Docs & Code
 
 ## Como organizei a sprint
 
-Criei o quadro no Trello com as listas Backlog, To Do, In Progress e Done. Fui movendo os cartões conforme avançava, e todos terminaram em Done:
+Logo após iniciar a sprint, criei o quadro no Trello com as listas Backlog, To Do, In Progress e Done. Fui movendo os cartões conforme avançava, e todos terminaram em Done:
 
 1. Definir critérios de aceitação
 2. Escrever a documentação técnica
@@ -37,7 +39,7 @@ Os critérios de aceitação que defini foram:
 - resultado com pelo menos duas casas decimais;
 - arredondamento correto (ROUND_HALF_UP).
 
-Nesta versão o conversor trabalha com USD, EUR e BRL, usando taxas fixas que ficam em `TAXAS_PARA_USD`. Foi optado por taxas fixas para manter o foco no que a atividade pede, sem depender de uma API externa. Integrar uma API de câmbio ficou como melhoria futura.
+Nesta versão o conversor trabalha com **USD, EUR e BRL**, usando taxas fixas que ficam em `TAXAS_PARA_USD`. Foi optado por taxas fixas para manter o foco no que a atividade pede, sem depender de uma API externa. Integrar uma API de câmbio ficou como melhoria futura.
 
 ## Como rodar
 
@@ -47,15 +49,13 @@ Só precisa do Python 3, sem instalar nada extra.
 cd conversor
 
 # usar o conversor pelo terminal
-python conversor_moedas.py
+python3 conversor_moedas.py
 
 # rodar os testes
-python -m unittest test_conversor_moedas.py -v
+python3 -m unittest test_conversor_moedas -v
 ```
 
-No Linux ou macOS, use `python3` no lugar de `python`.
-
-Foram criados 19 testes, sendo 10 de cenários que devem funcionar, 7 de erros esperados (moeda inválida, valor negativo, valor não numérico, `nan`, `inf`, valor gigante) e 2 da interface de terminal. Todos passam.
+Foram criados 12 testes, sendo 8 de cenários que devem funcionar e 4 de erros esperados (moeda inválida, valor negativo, valor não numérico). Todos passam.
 
 ## Sobre a documentação técnica
 
@@ -63,7 +63,7 @@ O enunciado pede a documentação da funcionalidade de **login**, então foi ela
 
 ## Revisão
 
-Depois de terminar, revisei o código e a documentação. Anotei o que funcionou bem, o que encontrei de problema e o que melhoraria em [`REVISAO.md`](REVISAO.md). 
+Depois de terminar, revisei o código e a documentação. Anotei o que funcionou bem, o que encontrei de problema e o que melhoraria em [`REVISAO.md`](REVISAO.md).
 
 ## Reflexão sobre o Scrum
 
@@ -71,7 +71,7 @@ Fazer essa sprint sozinha ajudou a entender melhor como o Scrum funciona na prá
 
 Ao mesmo tempo, ficou claro que o Scrum funciona ainda melhor quando se está em equipe. Sozinha, foi preciso assumir todos os papéis, desde definir prioridades até revisar o próprio trabalho. Em grupo, seria possível dividir melhor as tarefas, trocar ideias e ter outras pessoas revisando o código.
 
-Numa próxima sprint, eu focaria em melhorar o próprio trabalho: integrar uma API de câmbio para ter taxas em tempo real, evoluir a interface para algo mais amigável e incluir na documentação uma seção sobre o conversor. O tratamento de nan/inf e a falta de testes para a interface de terminal e para as taxas já foram corrigidos depois da revisão. Os demais pontos estão anotados no REVISAO.md e dariam bons cartões para o Backlog da sprint seguinte.
+Numa próxima sprint, eu focaria em melhorar o próprio trabalho: corrigir o tratamento de entradas como nan e inf, criar testes para a interface de terminal e para as taxas de câmbio, integrar uma API de câmbio para ter taxas em tempo real, evoluir a interface para algo mais amigável, incluir na documentação uma seção sobre o conversor e ajustar o fluxograma do login para tratar o bloqueio de conta. Esses pontos já estão anotados no REVISAO.md e dariam bons cartões para o Backlog da sprint seguinte.
 
 ## Referências
 
