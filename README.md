@@ -70,7 +70,7 @@ Fazer essa sprint sozinha ajudou a entender melhor como o Scrum funciona na prá
 
 Ao mesmo tempo, ficou claro que o Scrum funciona ainda melhor quando se está em equipe. Sozinha, foi preciso assumir todos os papéis, desde definir prioridades até revisar o próprio trabalho. Em grupo, seria possível dividir melhor as tarefas, trocar ideias e ter outras pessoas revisando o código.
 
-Numa próxima sprint, eu focaria em melhorar o próprio trabalho: corrigir o tratamento de entradas como nan e inf, criar testes para a interface de terminal e para as taxas de câmbio, integrar uma API de câmbio para ter taxas em tempo real, evoluir a interface para algo mais amigável, incluir na documentação uma seção sobre o conversor e ajustar o fluxograma do login para tratar o bloqueio de conta. Esses pontos já estão anotados no REVISAO.md e dariam bons cartões para o Backlog da sprint seguinte.
+Depois da revisão, corrigi o tratamento de entradas como nan e inf, criei os testes da interface de terminal e das taxas de câmbio, e ajustei o fluxograma do login para tratar o bloqueio de conta. Numa próxima sprint, eu focaria em integrar uma API de câmbio para ter taxas em tempo real, evoluir a interface para algo mais amigável e incluir na documentação uma seção sobre o conversor. Esses pontos estão anotados no REVISAO.md e dariam bons cartões para o Backlog da sprint seguinte.
 
 ## Referências
 
