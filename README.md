@@ -58,7 +58,7 @@ No Linux ou macOS, use `python3` no lugar de `python`.
   Foram criados 19 testes, sendo 10 de cenários que devem funcionar, 7 de erros esperados (moeda inválida, valor negativo, valor não numérico, nan, inf, valor gigante) e 2 da interface de terminal. Todos passam.
 
 ## Sobre a documentação técnica
-O enunciado tem uma certa inconsistência entre as etapas: na etapa de "praticar" pede a documentação da funcionalidade de login, e na etapa de "entregar" pede a documentação do conversor de moedas. Escolhi documentar o conversor, porque é mais consistente com o restante do trabalho, já que ele é o foco da sprint e é a mesma funcionalidade que aparece no código e nos testes.
+O enunciado tem uma certa inconsistência entre as etapas: na etapa de "praticar" pede a documentação da funcionalidade de login, e na etapa de "entregar" pede a documentação do conversor de moedas. Escolhi manter na versão final apenas o conversor, porque é mais consistente com o restante do trabalho, já que ele é o foco da sprint e é a mesma funcionalidade que aparece no código e nos testes.
 
 ## Revisão
 
